@@ -1,0 +1,15 @@
+FROM node:alpine
+
+WORKDIR /usr/app/
+
+COPY package*.json ./
+RUN npm install
+RUN npm install mysql
+RUN npm install restify
+
+COPY . .
+
+EXPOSE 8080
+
+CMD ["npm", "start"]
+CMD ["mysql", "start"]
