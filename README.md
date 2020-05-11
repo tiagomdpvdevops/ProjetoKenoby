@@ -1,5 +1,5 @@
-# ProjetoKenoby
-Processo seletivo Mabicare
+# ProjetoHurb
+Processo seletivo Hurb
 
 Pré-requisitos:
 
